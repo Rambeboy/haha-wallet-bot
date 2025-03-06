@@ -1,0 +1,32 @@
+{
+  "name": "haha-wallet-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An automated tool for claiming karma and completing tasks in Haha Wallet. Built with Node.js and features a terminal-based dashboard interface.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "setup": "node scripts/setup.js",
+    "build": "rm -rf app && javascript-obfuscator --config build-config.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github/Rambeboy/haha-wallet-bot.git"
+  },
+  "keywords": [
+    "haha-wallet",
+    "extension",
+    "wallet",
+    "haha-wallet-bot",
+    "rambeboy"
+    ],
+  "author": "Nofan Rambe",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "moment-timezone": "^0.5.47"
+  }
+}
